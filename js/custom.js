@@ -17,6 +17,12 @@ $(document).ready(function(){
 		else{
 			$('.navBarScrollWrapper').slideUp();			
 		}
+		if($(window).width() < 767){
+			$('.navBarScroll').hide();
+		}
+		else{
+			$('.navBarScroll').show();			
+		}
 	});
 
 });
