@@ -1,5 +1,7 @@
 body{
 	background-color: black;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/salmon.jpg', sizingMethod='scale');
+-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/salmon.jpg', sizingMethod='scale')";
 }
 
 a{
