@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> 
-<html class="no-js"> <!--<![endif]-->
+<html class="no-js">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +9,9 @@
 
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!--[if lt IE 9]>
+    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+	<![endif]-->
 	<script src="js/custom.js"></script>
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/custom.css">
@@ -120,6 +119,8 @@
 
 <div class="container-fluid contactWrapper">
 	<div class="container contact">
+		<h1 class="contactTitle">CONTACT</h1>
+		<h2 class="contactSubTitle">This form is customizable to suit your needs.</h2>
 		<form style="" action="http://formspree.io/tuckerjeremyw@gmail.com" method='POST'>
 			<label for="name" class="contactLabel">Name</label>
 			<input class="input" type="text" name="name">
