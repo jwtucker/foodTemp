@@ -346,15 +346,18 @@ body{
 	box-shadow: 10px 10px 34px 2px rgba(0,0,0,0.75);
 }
 
+.buttonWrapper{
+	display: block;
+	text-align: center;
+}
+
 .contactButton{
+	display: inline-block;
 	border: none;
 	background:transparent;
 	border-top: solid;
 	border-bottom: solid;
 	font-size:40px;
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:700;
 	border-width:7px;
